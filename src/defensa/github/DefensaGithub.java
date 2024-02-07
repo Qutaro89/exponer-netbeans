@@ -24,7 +24,7 @@ public class DefensaGithub {
             System.out.println("SE ESTA GENERANDO EL NÚMERO QUE VAS A INTENTAR ADIVINAR");
             System.out.println("SI PONES UN NÚMERO MÁS GRANDE TE DIRE QUE ES MENOR, PERO SI TE QUEDAS POR DE DEBAJO TE DIRE QUE AUMENTES TU RESPUESTA");
             Random dado = new Random();
-            numaleatorio = dado.nextInt(100) + 1;//hay un +1 ya que elige los numeros aleatoriamente entre el 1 y el 100
+            numaleatorio = dado.nextInt(50) + 1;//hay un +1 ya que elige los numeros aleatoriamente entre el 1 y el 50
             System.out.println("YA SE HA GENERADO EL NÚMERO. SUERTE ;-)");
         }
         while (intentos != 0) {
